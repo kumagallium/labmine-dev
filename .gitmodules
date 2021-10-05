@@ -1,6 +1,6 @@
-[submodule "api"]
-	path = api
-	url = https://github.com/kumagallium/labmine-api.git
 [submodule "front"]
 	path = front
 	url = https://github.com/kumagallium/labmine-front.git
+[submodule "api"]
+	path = api
+	url = https://github.com/kumagallium/labmine-api.git
