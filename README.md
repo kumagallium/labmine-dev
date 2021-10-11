@@ -1,7 +1,7 @@
 # Labmine-dev
 Labmine is an electronic lab notebook focusing on process.
 It can be used for research, manufacture, cooking, hobbies, etc.
-<img width="1180" alt="vpd-image" src="front/doc/images/Curry_Process.png">
+<img width="1180" alt="vpd-image" src="doc/images/Curry_Process.png">
 
 ## Demo 
 https://demo-labmine.c1.hacobuneapp.com/
