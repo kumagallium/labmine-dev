@@ -1,5 +1,6 @@
 # Labmine-dev
-Labmine is an electronic lab notebook for research and hobbies where process is the key.
+Labmine is an electronic lab notebook focusing on process.
+It can be used for research, manufacture, cooking, hobbies, etc.
 <img width="1180" alt="vpd-image" src="front/doc/images/Curry_Process.png">
 
 ## Demo 
@@ -19,3 +20,13 @@ docker-copose up --build
 ```
 Go to "http://localhost:3000" in your browser and check that Labmine is running.
 Please modify the environment variables as necessary.
+
+## Contributing
+1. Fork it (`git clone https://github.com/kumagallium/labmine-dev.git`)
+2. Create your feature branch (`git checkout -b your-new-feature`)
+3. Commit your changes (`git commit -am 'feat: add some feature'`)
+4. Push to the branch (`git push origin your-new-feature`)
+5. Create a new Pull Request
+
+## License
+Labmine is developed and maintained by Masaya Kumagai, under [BSD 2-Clause "Simplified" License](LICENSE.txt).
