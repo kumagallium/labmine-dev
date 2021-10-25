@@ -10,7 +10,7 @@ https://demo-labmine.c1.hacobuneapp.com/
 After preparing the environment to run docker, run the following.
 ```sh
 # recursive cloning of the labmine-dev repository
-git --recursive clone https://github.com/kumagallium/labmine-dev.git
+git clone --recursive https://github.com/kumagallium/labmine-dev.git
 
 # move to working directory
 cd labmine-dev
