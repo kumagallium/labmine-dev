@@ -9,9 +9,13 @@ services:
     ports:
       - 3000:3000
     stdin_open: true
+    volumes:
+      - ./front:/code
+      - /code/node_modules
     environment:
       BASE_URL: http://labmine-api:8001
       BROWSER_BASE_URL: http://labmine-api:8001
+    command: npm run dev
 
   db:
     image: mysql:5.7
