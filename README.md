@@ -16,7 +16,7 @@ git clone --recursive https://github.com/kumagallium/labmine-dev.git
 cd labmine-dev
 
 # build on the local computer
-docker-copose up --build
+docker-compose up --build
 ```
 Go to "http://localhost:3000" in your browser and check that Labmine is running.
 Please modify the environment variables as necessary.
