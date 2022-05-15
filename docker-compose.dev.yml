@@ -15,6 +15,7 @@ services:
     environment:
       BASE_URL: http://api:8001
       BROWSER_BASE_URL: http://api:8001
+    entrypoint: npm run dev
 
   db:
     platform: linux/x86_64
