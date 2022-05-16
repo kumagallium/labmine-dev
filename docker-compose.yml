@@ -54,6 +54,7 @@ services:
         - ./nginx/conf:/etc/nginx/conf.d
         - ./nginx/uwsgi_params:/etc/nginx/uwsgi_params
         - static_volume:/static
+        - ./nginx/.well-known/pki-validation/:/.well-known/pki-validation/
         #- ./labmine-api/static:/static
       depends_on:
         - api
