@@ -29,6 +29,8 @@ services:
       MYSQL_USER: dbuser
       MYSQL_PASSWORD: dbpass
       TZ: 'Asia/Tokyo'
+    volumes:
+      - db_data:/var/lib/mysql
 
   api:
     build: ./api
@@ -65,3 +67,4 @@ services:
 
 volumes:
   static_volume:
+  db_data:
