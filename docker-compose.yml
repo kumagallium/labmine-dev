@@ -13,8 +13,8 @@ services:
       - ./front:/code
       - /code/node_modules
     environment:
-      BASE_URL: http://api:8001
-      BROWSER_BASE_URL: http://api:8001
+      BASE_URL: http://nginx
+      BROWSER_BASE_URL: http://nginx
 
   db:
     image: mysql:5.7
